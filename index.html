@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#151515">
+    <title>Yakalandın!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>😂 YAKALAYABİLİRSEN YAKALA!</h1>
+
+<div class="upload-area">
+    <label>
+        📸 Fotoğrafını Yükle
+        <input type="file" id="photoInput" accept="image/*">
+    </label>
+</div>
+
+<div class="info">
+    <span>🏆 Skor: <b id="score">0</b></span>
+    <span>⏱️ Süre: <b id="time">30</b></span>
+</div>
+
+<div id="game">
+
+    <div class="hole" id="hole1"></div>
+    <div class="hole" id="hole2"></div>
+    <div class="hole" id="hole3"></div>
+    <div class="hole" id="hole4"></div>
+    <div class="hole" id="hole5"></div>
+    <div class="hole" id="hole6"></div>
+
+    <img id="target" alt="hedef">
+
+    <div id="effect"></div>
+
+</div>
+
+<button id="startButton">OYUNU BAŞLAT</button>
+
+<p id="message">Önce fotoğraf yükle 😈</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
